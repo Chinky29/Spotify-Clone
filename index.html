@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</html> 
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="home">
+                <div class="homeoption" style="opacity: 1;"><a href="#"><i class="fa-solid fa-house"></i> Home</a><br></div>
+                <div class="homeoption"><a href="#"><i class="fa-solid fa-magnifying-glass"></i> Search</a><br></div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="liboption homeoption"><a href="#"><img src="./assets/library_icon.png"></i> Your Library</a><br></div>
+                    <div class="icon"><i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i></div>
+
+                </div>
+                <div class="lib-box">
+                  <div class="box">
+                    <p class="pbox1">Create your own playlist</p>
+                    <p class="pbox2">It's easy, we'll help you</p>
+                    <button class="badge">Create playlist</button>
+                  </div>
+                  <div class="box">
+                    <p class="pbox1">Let's find some podcasts to follow</p>
+                    <p class="pbox2">We'ill keep you updated on new episodes</p>
+                    <button class="badge">Browse podcasts</button>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="sticknav">
+               <div><img src="./assets/backward_icon.png"> <img src="./assets/forward_icon.png " class="hide"></div>
+               <div><button class="badge nav hide">Explore Premium</button>
+               <button class="badge nav button"><i class="fa-regular fa-circle-down"></i> Install App</button>
+               <i class="fa-regular fa-user"></i></div> 
+            </div>
+            
+                <h1>Recently PLayed</h1>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" class="card-img">
+                        <p class="card-title">Top-50 Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                </div>
+                <h1>Trending now near you</h1>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assets/card2img.jpeg" class="card-img">
+                        <p class="card-title">Top-50 Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card3img.jpeg" class="card-img">
+                        <p class="card-title">Top-50 Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card4img.jpeg" class="card-img">
+                        <p class="card-title">Top-50 Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card5img.jpeg" class="card-img">
+                        <p class="card-title">Top-50 Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card2img.jpeg" class="card-img">
+                        <p class="card-title">Top-50 Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                </div>
+                    <h1>Featured Charts</h1>
+                    <div class="cards-container">
+                        <div class="card">
+                            <img src="./assets/card6img.jpeg" class="card-img">
+                            <p class="card-title">Top-50 Global</p>
+                            <p class="card-info">Your daily updates of the most played...</p>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/card5img.jpeg" class="card-img">
+                            <p class="card-title">Top-50 Global</p>
+                            <p class="card-info">Your daily updates of the most played...</p>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/card1img.jpeg" class="card-img">
+                            <p class="card-title">Top-50 Global</p>
+                            <p class="card-info">Your daily updates of the most played...</p>
+                        </div>
+                     </div>
+                     <div class="footer">
+                        <div class="line"></div>
+                     </div>
+              </div>
+                        
+        <div class="player">
+            <div class="album">
+                <img src="./assets/card3img.jpeg" style="height: 56px;">
+                <div><b><p class="al">Mere Pass Tum Ho</p></b>
+                    <p class="al">Silent ocean</p></div>
+                <i class="fa-solid fa-circle-plus" style="margin-left: 1.5rem;"></i>
+            </div>
+            <div class="playerbox">
+                <div class="playercontrol"><b>
+                    <img src="./assets/player_icon1.png" class="pl">
+                    <img src="./assets/player_icon2.png" class="pl">
+                    <img src="./assets/player_icon3.png" class="pl on"  style="opacity: 1;">
+                    <img src="./assets/player_icon4.png" class="pl">
+                    <img src="./assets/player_icon5.png" class="pl">
+                </div>
+             <div class="playback">
+                <span class="curr-time">00:00</span>
+                <input type="range" min="0" max="100" class="progressbar" step="1">
+                <span class="tot-time">3:33</span>
+             </div>
+            </div>
+            <div class="controls">
+                <img src="./assets/Screenshot 2024-10-31 004228.png" class="play">
+                <img src="./assets/Screenshot 2024-10-31 004255.png" class="play">
+                <img src="./assets/Screenshot 2024-10-31 004312.png" class="play">
+                <img src="./assets/Screenshot 2024-10-31 004324.png" class="play">
+                <i class="fa-solid fa-volume-high" class="play"></i><input type="range" min="0" max="100" class="progressbar size" step="1">
+                <i class="fa-solid fa-up-right-and-down-left-from-center" class="play"></i>
+                
+                
+            </div>
+        </div>
+   </div>
+    
+</body>
+</html>
