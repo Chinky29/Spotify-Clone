@@ -23,4 +23,4 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Chinky29/Spotify-Clone.
+   git clone https://github.com/Chinky29/Spotify-Clone
