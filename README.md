@@ -1,6 +1,6 @@
 # Spotify-Clone
  here is the clone of spotify using html and css
-# Spotify Clone
+# Spotify Clone site is live at https://chinky29.github.io/Spotify-Clone/
 
 This is a simple Spotify clone created using HTML and CSS. The clone is a static webpage that mimics the user interface of the popular music streaming service, Spotify. It is a front-end only project, which focuses on replicating the look and feel of Spotify, without any backend functionality like streaming music.
 
